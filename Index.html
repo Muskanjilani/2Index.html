@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <h1 style="color: green;" >CSS Combinators Example</h1>
+    <style>
+        p{margin: 10px;
+        padding: 10px;
+        border: 1px solid black;}
+        p em{color: blue;}
+        p >strong {color: red;}
+        strong+span {font-style: italic;}
+        strong~span {font-weight: bold;}
+        </style>
+        </head>
+        <body>
+
+            <p>This is a paragraph with <em>italic</em>text.</p>
+            <p>This is another paragraph with <strong>bold</strong> text.</p>
+            <p>This is the third paragraph with <strong>bold</strong> text folllowed by <span>italic</span> text.</p>
+            <p>This is the fourth paragraph with <strong>bold</strong> text followed by <span>bold</span> text.</p>
+        </body>
+        </html>
